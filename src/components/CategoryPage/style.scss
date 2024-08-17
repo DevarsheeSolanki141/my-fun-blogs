@@ -1,0 +1,51 @@
+@import "styles/bootstrap-plus/variables.scss";
+@import "styles/bootstrap-plus/fonts/variables.scss";
+@import "styles/colorScheme/variables.scss";
+
+.blog-category-link {
+    font-size: $h1m;
+}
+
+.grid-321{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: $grid-gap;
+}
+
+@media (max-width: map-get($map: $grid-breakpoints, $key: 'md')){
+    .grid-321{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blog-category-link{
+        font-size: $h4;
+    }
+}
+
+$main-color: map-get($map: $colorScheme, $key: 'primary');
+
+.skewed-bg-2{
+  
+  background-image: linear-gradient($main-color, darken($main-color, 5%));
+  width: 120%;
+  position: absolute;
+  padding: 110px 0;
+  transform: skew(0deg, -5deg);
+  margin-top: -120px;  
+  margin-left: -50px;
+  z-index: -1;
+}
+
+.skewed-bg-2 ~ * {
+    z-index: 2;
+}
+
+@media (max-width: map-get($map: $grid-breakpoints, $key: 'sm')){
+    .grid-321{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .skewed-bg-2 {
+        margin-top: -140px;
+        height: 100%;
+    }
+}
+

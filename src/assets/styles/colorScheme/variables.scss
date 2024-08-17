@@ -1,0 +1,134 @@
+//TODO: Set these variables by importing form json/colors.js instead of declaring them twice
+
+$colorScheme: (
+  "primary": #f78e20,
+  "primary-light": #1cb1d1,
+  "primary-dark": darken(#14509f, 10%),
+  "secondary": #4c4c4e,
+  "secondary-dark": darken(#c3002f, 10%),
+  "warning": #ffa38b,
+  // "success": #b9dcd2,
+  "success": #ababab,
+  "light": #f2edd7,
+  "info": #004976,
+  "dark": #54575a,
+  "dark-dark": #2e2d2f,
+  "paleRed": #ffb1bb,
+  "white": #ffffff,
+);
+
+$contactIcon: #96cbbf;
+$invalid: rgba(255, 0, 0, 0.5);
+$overlay: rgba(0, 0, 0, 0.3);
+
+$gray: (
+  1: #fafafa,
+  2: #f6f6f6,
+  "2-dark": #dbdbdb,
+  3: #b1b1b1,
+  "3-dark": #969696,
+  4: #707070,
+  5: #b5b5b5,
+  6: #e5e4e2,
+  7: #eae1e1,
+);
+
+$link: (
+  "default": #f1b434,
+  "visited": #eea70e,
+);
+
+$socialMedia: (
+  "facebook": #3b5998,
+  "messenger": #0084ff,
+  "whatsapp": #25d366,
+  "instagram": #e1306c,
+  "twitter": #1da1f2,
+  "pinterest": #e60023,
+  "linkedIn": #1666c5,
+  "snapChat": #fffc00,
+  "youtube": #ff0000,
+);
+
+$cars: (
+  "maroon": #800000,
+  "brown": #8b4513,
+  "yellow": #f8d25a,
+  "red": #f04941,
+  "blue": #009ee0,
+  "gold": #d2ad3c,
+  "bronze": #ab6a43,
+  "green": #67a635,
+  "silver": #c0c0c0,
+  "orange": #f19338,
+  "tan": #d2b48c,
+  "white": #ffffff,
+  "grey": #808080,
+  "black": #000000,
+  "purple": #800080,
+  "copper": #b87333,
+);
+
+$primary: map-get(
+  $map: $colorScheme,
+  $key: "primary",
+);
+$primary-light: map-get(
+  $map: $colorScheme,
+  $key: "primary-light",
+);
+$secondary: map-get(
+  $map: $colorScheme,
+  $key: "secondary",
+);
+$secondary-light: map-get(
+  $map: $colorScheme,
+  $key: "secondary-light",
+);
+$success: map-get(
+  $map: $colorScheme,
+  $key: "success",
+);
+$warning: map-get(
+  $map: $colorScheme,
+  $key: "warning",
+);
+$info: map-get(
+  $map: $colorScheme,
+  $key: "info",
+);
+$light: map-get(
+  $map: $colorScheme,
+  $key: "light",
+);
+$dark: map-get(
+  $map: $colorScheme,
+  $key: "dark",
+);
+
+$gray-1: map-get(
+  $map: $gray,
+  $key: 1,
+);
+$gray-2: map-get(
+  $map: $gray,
+  $key: 2,
+);
+$gray-3: map-get(
+  $map: $gray,
+  $key: 3,
+);
+$gray-4: map-get(
+  $map: $gray,
+  $key: 4,
+);
+$gray-5: map-get(
+  $map: $gray,
+  $key: 5,
+);
+$gray-6: map-get(
+  $map: $gray,
+  $key: 6,
+);
+
+//These three colors match original bootstrap colors $muted $danger $white

@@ -1,0 +1,53 @@
+//TODO: Add purgecss to the webpack file, otherwise, these imports(including bootstrap itself) will cause way to much css, and slow down the page load speed
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./bootstrapChanges.scss";
+@import "./col.scss";
+@import "./flexboxClasses.scss";
+@import "./fonts/index.scss";
+@import "./marginPadding.scss";
+@import "./objectFit.scss";
+@import "./outline.scss";
+@import "./overflow.scss";
+@import "./position.scss";
+@import "./rounded.scss";
+@import "./safari.scss";
+@import "./scrollbar.scss";
+@import "./shadows.scss";
+@import "./text.scss";
+@import "./zIndex.scss";
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}
+
+.h-100vh {
+    height: 100vh !important;
+}
+
+.w-100vw {
+    width: 100vw !important;
+}
+
+.bg-inherit {
+    background-color: inherit;
+}
+
+.bg-transparent {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}

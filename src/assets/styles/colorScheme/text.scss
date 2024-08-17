@@ -1,0 +1,79 @@
+@import "./variables.scss";
+
+.invalid {
+    color: $invalid;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-gray1 {
+    color: map-get($map: $gray, $key: 1);
+}
+
+.text-gray2 {
+    color: map-get($map: $gray, $key: 2);
+}
+
+.text-gray3 {
+    color: map-get($map: $gray, $key: 3);
+}
+
+.text-gray4 {
+    color: map-get($map: $gray, $key: 4);
+}
+
+.text-gray5 {
+    color: map-get($map: $gray, $key: 5);
+}
+
+@each $bp-name,
+$bp-pixels in $grid-breakpoints {
+
+    @each $color-name,
+    $color-value in $colorScheme {
+        @media (min-width: $bp-pixels) {
+            .text-#{$bp-name}-#{$color-name} {
+                color: #{$color-value} !important;
+            }
+        }
+    }
+}
+
+.hover-primary {
+    color: #54575a !important;
+}
+
+.hover-primary:hover {
+    color: $secondary !important;
+}
+
+.footer-menu {
+    color: #fff;
+}
+
+.footer-menu:hover {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.dropdown-toggle:not(.hover-primary):hover {
+    color: white !important;
+}
+
+.text-secondary-light {
+    color: $secondary-light;
+}
+
+.hover-dark:hover {
+    color: $dark !important;
+}
+
+.hover-white:hover {
+    color: #fff !important;
+}

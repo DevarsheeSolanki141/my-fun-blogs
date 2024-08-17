@@ -1,0 +1,36 @@
+---
+title: "World Premiere Of The New 2021 Arteon"
+date: "2020-06-25"
+author: "Kasandra Martell"
+description: "One model series, two versions! Volkswagen is presenting the new Arteon in a world premiere and is unveiling a second version – the new Arteon Shooting Brake – at the same time. "
+featuredImage: ./imgs/image-coming-soon.jpg
+imgAlt: "An used car shop"
+category: "News-&-Announcements"
+---
+
+<!-- ![Markdown Logo](./imgs/image-coming-soon.jpg) -->
+
+One model series, two versions! Volkswagen is presenting the new Arteon in a world premiere and is unveiling a second version – the new Arteon Shooting Brake – at the same time. This model is a completely new interpretation of the estate concept. “Volkswagen will launch 34 new models this year. There has never been such an extensive model initiative in the history of the brand,“ says Ralf Brandstätter, Chief Operating Officer und designated CEO of the Volkswagen Pkw brand. “The Arteon Shooting Brake extends our model range in the important midsize-segment. It will set standards in its class with its dynamic design, high functionality and modern technologies.“
+
+Stylish and dynamic. The Arteon has been the Volkswagen Gran Turismo since 2017.Volkswagen is now unveiling a far-reaching update to the model series. The new Arteon and Arteon Shooting Brake are characterised by an expressive and avant-garde design. The distinctive features include in particular the front end with a new continuous light strip, striking chrome bars and new air intakes at the bottom. The radiator grille and the long, wide bonnet are combined as a formal unit and make both Arteon versions stand out as the face in the crowd – also at night thanks to a unique LED light signature at the front and rear.
+
+The two new models – the Arteon and Arteon Shooting Brake – are both characterised by athletic lines. However, they differ significantly from each other from the B-pillars to the rear. Whereas on the fastback model, the roof and window contours are swept down in parallel from the B-pillars and therefore become part of the coupé-shaped rear, the roof and window lines are extended towards the rear on the Shooting Brake and end in the new roof spoiler. At the top, the window line runs parallel to the roof. However, at the bottom the lines move upwards towards the D-pillars, thus making the window area at the rear narrower and more striking. All elements together form the sporty rear profile typical for a Shooting Brake.
+
+Arteon eHybrid. All new technical developments are applied in both body versions. For the first time in the Arteon, this includes a plug-in hybrid drive. With the long purely electric range many Arteon eHybrid and Arteon Shooting Brake eHybrid drivers will be able to cover their daily driving distances with zero emissions locally. As a fastback version and Shooting Brake, the two Arteon models are among the first of their kind to be available with a plug-in hybrid drive in the luxury mid-sized vehicle segment.
+
+![Markdown Logo](./imgs/KIA-Saskatoon.jpg)
+
+Arteon R – dynamic performance for the business class. The Arteon R will be the flagship in the model series. With this model, Volkswagen is pushing further into the premium performance segment. It is not just the unadulterated output that is fascinating here, but also the way that the vehicles convert their power into propulsion. Thanks to a new progressive technology known as R-Performance Torque Vectoring, the torque is distributed variably both between the axles and also between the rear wheels depending on the driving situation by means of selective wheel torque control. And this creates a new level of driving dynamics in this category.
+
+Plenty of space for driver, occupants and luggage. The Arteon is characterised by a highly functional overall concept. All occupants in the front and rear of both Arteon versions benefit from the modular transverse matrix (MQB). The maximum legroom at the rear is 1,016 mm and is a benchmark value in this class. Thanks to the unique design of its roof section, the Shooting Brake offers more headroom at both the front and rear. As standard, the rear seat backrest can be folded asymmetrically in both models. Behind the Arteon Shooting Brake’s rear seat bench is a luggage compartment capacity of up to 565 litres when loaded up to the rear seat backrest and luggage compartment cover (fastback: 563 litres). Loading the vehicle up to the front seat backrests increases the loading capacity to 1,632 litres (fastback: 1,557 litres). In both cases, the load space has a maximum length of 2,09 mm (up to the front seats).
+
+New assist systems: Travel Assist – assisted driving up to 210 km/h. The range of technical innovations involves powertrains as well as further IQ.DRIVE assist systems. New in this product line: the optional Travel Assist system. The system enables partly automated driving within a speed range from 0 km/h to 210 km/h (within the system limits). Travel Assist makes driving in stop-and-go traffic and through roadworks in particular noticeably more convenient. An integral part of Travel Assist is the ACC with predictive speed control. The adaptive cruise control reacts to speed limits, towns, bends, roundabouts and junctions with corresponding speed adaptation. The Lane Assist lane keeping system that keeps the vehicle in the centre of the lane and Autonomous Emergency Braking Front Assist with Pedestrian Monitoring also form part of the range of Travel Assist functions. The Rear View reversing camera (optional) was further enhanced and now also features among other things a Corner View (which expands the camera image on the infotainment system screen from 90 degrees to a wide angle of 170 degrees) and a special trailer view (of the tow bar from above to facilitate hitching up the trailer).
+
+New assist systems: Travel Assist – assisted driving up to 210 km/h. The range of technical innovations involves powertrains as well as further IQ.DRIVE assist systems. New in this product line: the optional Travel Assist system. The system enables partly automated driving within a speed range from 0 km/h to 210 km/h (within the system limits). Travel Assist makes driving in stop-and-go traffic and through roadworks in particular noticeably more convenient. An integral part of Travel Assist is the ACC with predictive speed control. The adaptive cruise control reacts to speed limits, towns, bends, roundabouts and junctions with corresponding speed adaptation. The Lane Assist lane keeping system that keeps the vehicle in the centre of the lane and Autonomous Emergency Braking Front Assist with Pedestrian Monitoring also form part of the range of Travel Assist functions. The Rear View reversing camera (optional) was further enhanced and now also features among other things a Corner View (which expands the camera image on the infotainment system screen from 90 degrees to a wide angle of 170 degrees) and a special trailer view (of the tow bar from above to facilitate hitching up the trailer)
+
+Find more information at https://www.volkswagen-newsroom.com/en/press-releases
+.
+.
+.
+Come on out to our new Volkswagen in Saskatoon for a test drive and a coffee! We would love to see you.
+-FFUN Family

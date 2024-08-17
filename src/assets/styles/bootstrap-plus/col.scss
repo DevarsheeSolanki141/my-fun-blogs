@@ -1,0 +1,9 @@
+@import './variables';
+
+@each $bp-name, $bp-pixels in $grid-breakpoints {
+    @media (min-width: $bp-pixels) {
+        .w-#{$bp-name}-unset{
+            width: unset !important;
+        }
+    }
+}

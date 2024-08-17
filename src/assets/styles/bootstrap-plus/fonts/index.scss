@@ -1,0 +1,81 @@
+@import "../variables.scss";
+@import "./variables.scss";
+
+.font-h9 {
+    font-size: $h9 !important;
+}
+
+.font-h8 {
+    font-size: $h8 !important;
+}
+
+.font-h7 {
+    font-size: $h7 !important;
+}
+
+.font-h6m {
+    font-size: $h6m !important;
+}
+
+//The default font size
+.font-h6 {
+    font-size: $h6 !important; //16px;
+}
+
+.font-h5m {
+    font-size: $h5m !important;
+}
+
+.font-h5 {
+    font-size: $h5 !important;
+}
+
+.font-h4 {
+    font-size: $h4 !important;
+}
+
+.font-h3 {
+    font-size: $h3 !important;
+}
+
+.font-h2 {
+    font-size: $h2 !important;
+}
+
+.font-h1m {
+    font-size: $h1m !important;
+}
+
+.font-h1 {
+    font-size: $h1 !important;
+}
+
+.font-h0 {
+    font-size: $h0 !important;
+}
+
+
+.font-weight-header {
+    font-weight: 500;
+}
+
+.font-weight-bolder {
+    font-weight: 800;
+}
+
+.font-weight-boldest {
+    font-weight: 900;
+}
+
+// All the bootstrap grid breakpoints for style classes
+// Examples: font-md-h1 font-sm-h5m
+@each $bp-name, $bp-pixels in $grid-breakpoints {  
+    @each $font-name, $font-size in $font-sizes {
+        @media (min-width: $bp-pixels) {
+            //Screen width must best at least this width for this font size to be applied
+            .font-#{$bp-name}-#{$font-name} {
+                font-size: $font-size !important;
+            }
+        }
+    }
+}

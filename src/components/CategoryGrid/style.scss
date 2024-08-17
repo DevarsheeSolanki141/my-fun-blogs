@@ -1,0 +1,17 @@
+@import "styles/bootstrap-plus/variables.scss";
+
+.cat-big-art{
+    flex-grow: 1;
+    margin-right: $grid-gap;
+    margin-bottom: $grid-gap;
+}
+
+.cat-art-1, .cat-art-2{
+    margin-bottom: $grid-gap;
+}
+
+@media (max-width: map-get($map: $grid-breakpoints, $key: 'md')){
+    .cat-art-1, .cat-art-2, .cat-big-art{
+        width: 100%;
+    }
+}

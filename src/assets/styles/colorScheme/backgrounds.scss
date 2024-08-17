@@ -1,0 +1,48 @@
+@import "./variables.scss";
+
+.bg-gray1 {
+    background-color: map-get($map: $gray, $key: 1) !important;
+}
+
+.bg-gray2, .hover-gray-2:hover {
+    background-color: map-get($map: $gray, $key: 2) !important;
+}
+
+.bg-gray3, .hover-gray-3:hover {
+    background-color: map-get($map: $gray, $key: 3) !important;
+}
+
+button.bg-gray3:hover, button.bg-gray3:focus {
+    background-color: map-get($map: $gray, $key: "3-dark") !important;
+}
+
+.bg-gray3:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(150, 150, 150, 0.5);  //3-dark with half opacity
+}
+
+.bg-gray4 {
+    background-color: map-get($map: $gray, $key: 4) !important;
+}
+
+.bg-gray5 {
+    background-color: map-get($map: $gray, $key: 5) !important;
+}
+
+.bg-contact {
+    background-color: $contactIcon !important;
+}
+
+.bg-dark-transparent {
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+//! These 2 classes don't work
+.bg-alt-gray-white:nth-child(odd) {
+    @extend .bg-gray2;
+}
+
+.bg-alt-white-gray:nth-child(even) {
+    @extend .bg-gray2;
+}
+//!

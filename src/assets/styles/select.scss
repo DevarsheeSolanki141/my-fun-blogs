@@ -1,0 +1,38 @@
+@import "./colorScheme/variables.scss";
+
+.minimal {
+  background-color: inherit;
+  display: inline-block;
+  font: inherit;
+  padding: 0 2.2em 0 1em;
+  margin: 0;
+  cursor: pointer;
+  border: none;
+  background-image: url(data:image/png;base64,R0lGODlhDQAEAIAAAAAAAP8A/yH5BAEHAAEALAAAAAANAAQAAAILhA+hG5jMDpxvhgIAOw==);
+  background-position: 100%;
+  background-size: 0.85em auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-repeat: no-repeat;
+}
+
+
+
+// .minimal {
+//   background-image: url(data:image/png;base64,R0lGODlhDQAEAIAAAAAAAP8A/yH5BAEHAAEALAAAAAANAAQAAAILhA+hG5jMDpxvhgIAOw==);
+//   background-position: calc(100% - 20px), calc(100% - 15px);
+//   background-size: 5px 5px, 5px 5px;
+//   background-repeat: no-repeat;
+// }
+
+// .minimal:focus {
+//   background-image: url(data:image/png;base64,R0lGODlhDQAEAIAAAAAAAP8A/yH5BAEHAAEALAAAAAANAAQAAAILhA+hG5jMDpxvhgIAOw==);
+//   background-position: calc(100% - 15px), calc(100% - 20px);
+//   background-size: 5px 5px, 5px 5px;
+//   background-repeat: no-repeat;
+//   border-color: $secondary;
+//   outline: 0;
+// }

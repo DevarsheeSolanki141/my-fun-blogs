@@ -1,0 +1,111 @@
+@import "./colorScheme/variables.scss"; //! Must be before @import "./bootstrap-plus/index"
+@import "./bootstrap-plus/index.scss";
+@import "./colorScheme/index.scss";
+@import "./shadows.scss";
+@import "./flexboxClasses.scss";
+@import "./select.scss";
+@import "./scrollbar.scss";
+@import "./input.scss";
+@import "./hoverEffects.scss";
+
+#root {
+  overflow: unset !important;
+}
+
+body {
+  font-family: $default-font;
+  max-width: 1920px; /* Adjust this value to your preferred maximum width */
+  margin: 0 auto;
+  overflow-x: hidden;
+  color: $dark;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bold-primary-title {
+  @extend .font-h5;
+  @extend .text-primary;
+  @extend .font-weight-bold;
+}
+
+.invisible {
+  display: none;
+}
+
+.mw-680 {
+  max-width: 680px;
+}
+
+.overflowX-hidden {
+  overflow-x: hidden;
+}
+
+.overlay {
+  background-color: $overlay;
+  z-index: 9999999;
+  top: 0;
+  left: 0;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.static-page-col {
+  @extend .mx-auto;
+  @extend .col-md-9;
+  @extend .col-11;
+}
+
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
+.hover-secondar:hover {
+  color: map-get($map: $colorScheme, $key: "primary") !important;
+}
+
+.hover-secondary-dark:hover,
+button.bg-primary {
+  background-color: darken(
+    map-get($map: $colorScheme, $key: "primary"),
+    10%
+  ) !important;
+}
+
+a:hover {
+  color: darken(map-get($map: $colorScheme, $key: "primary"), 10%) !important;
+}
+
+.hover-dark:hover {
+  color: map-get($map: $colorScheme, $key: "dark") !important;
+}
+
+a {
+  @extend .hover-secondar;
+  @extend .cursor-pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: map-get($map: $grid-breakpoints, $key: "lg")) {
+  .text-lg-white {
+    color: white;
+  }
+}
+
+.article-preview:focus-within {
+  transform: scale($grow-scale);
+  box-shadow: 0 9px 23px rgba(0, 0, 0, 0.15), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+picture > img,
+picture > source {
+  max-width: 100%;
+  max-height: 100%;
+}

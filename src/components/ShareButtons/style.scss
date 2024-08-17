@@ -1,0 +1,67 @@
+@import 'styles/colorScheme/variables';
+@import 'styles/bootstrap-plus/variables';
+
+.react-share__ShareButton{
+    padding: 5px !important;
+}
+
+.fa-circle {
+    width: 1.2em !important;
+    padding: 0.1em;
+}
+
+.fa-circle-container {
+    padding: 0.35em 0.28em 0.15em 0.32em;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px #888;
+}
+
+.react-share__ShareButton:focus > .fa-circle-container {
+    box-shadow: 0px 0px 2px 3px  #888;
+}
+
+// .react-share__ShareButton:hover>.fa-circle-container {
+//     box-shadow: 0px 0px 4px #888 !important;
+// }
+
+.share-wrap {
+    margin-left: -18px;
+}
+
+//Icon Colors
+.fa-reddit, .fa-reddit-alien{
+    color: #ff5700; //TODO: Wouldn't work unless hard coded, un hard code this 
+}
+.fa-twitter{
+    color: map-get($socialMedia, twitter);
+} 
+.fa-facebook, .fa-facebook-f{
+    color: map-get($socialMedia, facebook);
+}
+.fa-pinterest{
+    color: map-get($socialMedia, pinterest);
+}
+.fa-linkedin, .fa-linkedin-in{
+    color: map-get($socialMedia, "linkedIn");
+}
+.fa-whatsapp{
+    color: map-get($socialMedia, whatsapp);
+}
+.fa-envelope-open{
+    color: map-get($colorScheme, 'primary');
+}
+
+.shareButtonHr{
+    margin-left: 0;
+    margin-right: 20%;
+}
+
+// @media (max-width: 1150px){
+//     .share-icon {
+//         margin-left: auto;
+//         margin-right: auto;
+//     }
+//     .share-wrap{
+//         margin-left: 0;
+//     }
+// }

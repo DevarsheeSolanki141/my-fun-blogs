@@ -1,0 +1,16 @@
+@import "styles/bootstrap-plus/variables.scss";
+$navHeight: 68px;
+$searchHeight: $navHeight * 0.7;
+
+.filter-menu {
+    // height: 100vh;
+    // min-height: 101%;
+    top: $navHeight;
+    // overflow-y: scroll; //overflow: auto would make it dissapear, but it adds extra spacing in there
+}
+
+// .filter-menu:hover {
+//     overflow-y: scroll; //overflow: auto would make it dissapear, but it adds extra spacing in there
+// }
+
+//! This 620 value may be tempermental and depend on when the grid breaks down to one item

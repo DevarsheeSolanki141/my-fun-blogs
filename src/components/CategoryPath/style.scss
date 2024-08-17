@@ -1,0 +1,12 @@
+@import "styles/bootstrap-plus/fonts/variables.scss";
+@import "styles/bootstrap-plus/variables.scss";
+
+.blog-category-link {
+    font-size: $h0;
+}
+
+@media (max-width: map-get($map: $grid-breakpoints, $key: 'md')){
+    .blog-category-link{
+        font-size: $h4;
+    }
+}

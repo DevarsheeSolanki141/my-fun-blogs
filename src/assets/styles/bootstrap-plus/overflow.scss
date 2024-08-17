@@ -1,0 +1,14 @@
+.no-scroll {
+    overflow: hidden;
+}
+
+@each $overflow in hidden, scroll, auto, visible {
+    .overflow-#{$overflow} {
+        overflow: $overflow;
+    }
+    @each $dir in "x", "y" {
+        .overflow-#{$dir}-#{$overflow} {
+            overflow-#{$dir}: $overflow;
+        }
+    }
+}

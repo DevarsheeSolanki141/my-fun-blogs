@@ -1,0 +1,1 @@
+export default (arr) => arr.filter((item, i, ar) => ar.indexOf(item) === i);

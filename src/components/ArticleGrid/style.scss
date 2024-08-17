@@ -1,0 +1,13 @@
+@import 'styles/bootstrap-plus/variables.scss';
+
+.articleGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: $grid-gap;
+}
+
+@media (min-width: map-get($map: $grid-breakpoints, $key: 'md')){ //only works if the screen is wider than this)
+    .articleGrid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

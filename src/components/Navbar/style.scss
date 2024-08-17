@@ -1,0 +1,133 @@
+@import "../../assets/styles/bootstrap-plus/variables.scss";
+@import "../../assets/styles/colorScheme/variables.scss";
+
+.drpdwn {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  height: 0;
+}
+
+.drop-down-item {
+  font-weight: 400px;
+}
+
+.dropdown-content a,
+.drpdwn:hover .dropdown-content,
+.dropdown-content:hover {
+  display: block;
+  height: unset;
+}
+
+.dropdown-toggle:focus {
+  outline: none;
+  color: $dark !important;
+}
+
+// .dropdown-toggle:not(.hover-white):hover {
+//   color: $secondary !important;
+// }
+
+.contact-us-link {
+  color: #54575a !important;
+}
+.contact-us-link:hover {
+  color: white !important;
+}
+.phone-icon:hover {
+  color: white !important;
+}
+.dropdown-toggle-profile:hover {
+  color: $dark !important;
+}
+
+@media (max-width: 991px) {
+  .dropdown-toggle:hover {
+    color: $secondary !important;
+  }
+}
+
+.logo-toggler {
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 55px;
+}
+
+.how-in-menu {
+  display: none;
+}
+
+.navbar-double-drop {
+  color: $dark;
+}
+
+.custom-dropdown-menu {
+  font-size: 1em;
+}
+
+.parking-lot {
+  color: $dark;
+}
+
+.parking-lot:hover {
+  color: $secondary;
+}
+
+@media screen and (max-width: $lg) {
+  .navbar-double-drop,
+  .dropdown-toggle-finance {
+    font-size: 20px;
+    line-height: 50px;
+    color: $dark;
+    text-decoration: none;
+  }
+
+  .dropdown-item {
+    height: 41px !important;
+    line-height: 32px !important;
+  }
+
+  .logo-toggler {
+    height: 35px;
+    margin-left: 33px;
+  }
+
+  .dropdown-toggle-profile {
+    height: 50px;
+    line-height: 42px;
+    font-size: 20px;
+    // border-top: 1px solid #f6f6f6;
+    align-items: center;
+    display: flex;
+  }
+
+  .custom-dropdown-menu {
+    margin-right: 6px;
+    padding: 0;
+    max-width: 90%;
+  }
+
+  .only-burger-menu {
+    max-height: calc(100vh - 115px);
+    overflow-y: auto;
+  }
+
+  .how-in-menu {
+    display: block;
+  }
+
+}
+
+.dropdown-item {
+  line-height: 18px;
+}
+
+@media screen and (max-width: 1122px) {
+  .nav-prequal-button {
+    display: none;
+  }
+}

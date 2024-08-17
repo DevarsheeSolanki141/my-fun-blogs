@@ -1,0 +1,26 @@
+@import "styles/colorScheme/variables.scss";
+
+$main-color: map-get($map: $colorScheme, $key: "primary");
+
+.cta-icon {
+  height: 140px;
+}
+
+.cta-icon svg {
+  max-height: 100%;
+}
+
+.skewed-bg{
+  
+  background-image: linear-gradient($main-color, darken($main-color, 5%));
+  width: 100%;
+  position: absolute;
+  padding: 110px 0;
+  transform: skew(0deg, -10deg);
+  margin-top: -270px;  
+  
+}
+
+.skewed-bg ~ * {
+    z-index: 2;
+}

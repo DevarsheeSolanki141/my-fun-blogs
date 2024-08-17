@@ -1,0 +1,20 @@
+@import "styles/bootstrap-plus/variables";
+@import "styles/colorScheme/variables.scss";
+
+.static-page-banner-title {
+  font-size: 3rem;
+}
+
+.static-page-banner-sub-title {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: $md) {
+  .static-page-banner-title {
+    font-size: 1.5rem;
+  }
+
+  .static-page-banner-sub-title {
+    font-size: 1rem;
+  }
+}
